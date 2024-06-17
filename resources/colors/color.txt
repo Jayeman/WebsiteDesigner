@@ -1,0 +1,14 @@
+Spot Palette
+Primary: #4B34A2; (purple)
+secondary: #66BAA7 (light turqoise)
+#8171A3
+#F8EBFF
+
+
+Matching Gradient
+Primary: #4B34A2; (purple)
+Secondary: #005CC5 (Blue)
+#007BD3
+#0096CD
+#00ADBA
+#00C1A2

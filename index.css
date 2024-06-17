@@ -1,0 +1,41 @@
+html {
+    font-family: BioRhyme;
+    background-color: #8171A3;
+}
+
+header {
+    background-color: #4B34A2;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    height: 100%;
+}
+
+nav {
+    margin: 0;
+    padding: 0;    
+}
+
+nav a {
+    color: #F8EBFF;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border: solid black 1px;
+    border-Radius: 10px;
+}
+
+nav a:hover {
+    background-color: #8171A3;
+
+}
+
+/*  */
+@media screen and (max-width: 800px) {
+
+}
+
