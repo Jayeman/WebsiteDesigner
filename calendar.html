@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Planner</title>
+    <link rel="stylesheet" href="calendar.css">
+    <link rel="icon" type="image/x-icon" href="/resources/images/logos/Favicon-32x32.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="/resources/images/logos/main-logo.jpeg" alt="Header Logo" class="header-logo"></a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="calendar.html">Calendar</a>
+            <a href="designer.html">Designer</a>
+            <a href="coding_help.html">Coding Help</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+    <main>
+        <div class="calendar-container">
+            <div class="calendar-header">
+                <button id="prev-week">&lt;</button>
+                <div id="week-range"></div>
+                <button id="next-week">&gt;</button>
+            </div>
+            <div class="calendar-body">
+                <div class="calendar-grid">
+                    <div class="grid-header">
+                        <div class="grid-hour"></div>
+                        <div class="grid-day">
+                            <div>Sun</div>
+                            <div class="grid-date" id="date-sun"></div>
+                        </div>
+                        <div class="grid-day">
+                            <div>Mon</div>
+                            <div class="grid-date" id="date-mon"></div>
+                        </div>
+                        <div class="grid-day">
+                            <div>Tue</div>
+                            <div class="grid-date" id="date-tue"></div>
+                        </div>
+                        <div class="grid-day">
+                            <div>Wed</div>
+                            <div class="grid-date" id="date-wed"></div>
+                        </div>
+                        <div class="grid-day">
+                            <div>Thu</div>
+                            <div class="grid-date" id="date-thu"></div>
+                        </div>
+                        <div class="grid-day">
+                            <div>Fri</div>
+                            <div class="grid-date" id="date-fri"></div>
+                        </div>
+                        <div class="grid-day">
+                            <div>Sat</div>
+                            <div class="grid-date" id="date-sat"></div>
+                        </div>
+                    </div>
+                    <div class="grid-body">
+                        <!-- Hours and days grid will be dynamically generated -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="event-details">
+            <form id="event-form">
+                <h4>Add Event</h4>
+                <label for="event-date">Date:</label>
+                <input type="date" id="event-date" required>
+                <label for="event-start-time">Start Time:</label>
+                <input type="time" id="event-start-time" required>
+                <label for="event-end-time">End Time:</label>
+                <input type="time" id="event-end-time" required>
+                <label for="event-title">Title:</label>
+                <input type="text" id="event-title" required>
+                <label for="event-color">Color:</label>
+                <input type="color" id="event-color" value="#ff0000">
+                <button type="submit">Add Event</button>
+            </form>
+        </div>
+        <script src="/calendar_app/script.js"></script>
+    </main>
+</body>
+</html>
